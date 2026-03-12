@@ -1,0 +1,82 @@
+# ── Python ────────────────────────────────────────────────────────────────────
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyo
+*.pyd
+.Python
+build/
+dist/
+*.egg-info/
+*.egg
+.eggs/
+
+# ── Virtual environments ──────────────────────────────────────────────────────
+.venv/
+venv/
+env/
+ENV/
+
+# ── Jupyter / IPython ─────────────────────────────────────────────────────────
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+profile_default/
+ipython_config.py
+
+# ── Model artefacts (large binary files — store with DVC or Kaggle) ──────────
+*.pt
+*.pth
+*.onnx
+*.trt
+*.engine
+*.pb
+*.h5
+*.ckpt
+
+# ── Data files ────────────────────────────────────────────────────────────────
+data/
+*.jsonl
+*.csv
+*.parquet
+*.feather
+*.pkl
+*.pickle
+vocab.json
+
+# ── Logs & experiment tracking ────────────────────────────────────────────────
+runs/
+logs/
+*.log
+wandb/
+mlruns/
+.mlflow/
+lightning_logs/
+
+# ── OS artefacts ──────────────────────────────────────────────────────────────
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# ── IDE / editor ──────────────────────────────────────────────────────────────
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# ── Environment variables (never commit secrets) ──────────────────────────────
+.env
+.env.*
+!.env.example
+
+# ── Docker ────────────────────────────────────────────────────────────────────
+deployment/*.tar
+
+# ── Testing ───────────────────────────────────────────────────────────────────
+.pytest_cache/
+.coverage
+htmlcov/
