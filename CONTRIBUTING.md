@@ -5,7 +5,7 @@ Contributions are welcome — bug fixes, improved documentation, or new experime
 ## Setup
 
 ```bash
-git clone https://github.com/<your-username>/otto-recommender.git
+git clone https://github.com/kyrtyy/Edge-Optimized-Recommendation-System.git
 cd otto-recommender
 python -m venv .venv && source .venv/bin/activate
 pip install torch faiss-cpu onnx onnxruntime numpy pandas tqdm pytest ruff
